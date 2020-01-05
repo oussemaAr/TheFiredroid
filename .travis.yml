@@ -10,6 +10,7 @@ android:
     - extra-android-m2repository
     - sys-img-x86-android-26
     - sys-img-armeabi-v7a-android-17
+    - sys-img-armeabi-v7a-android-22
 before_script:
   - echo no | android create avd --force -n test -t android-22 --abi google_apis/armeabi-v7a -c 100M
   - emulator -avd test -no-audio -no-window &
